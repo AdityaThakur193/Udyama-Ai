@@ -1,5 +1,5 @@
 """Streamlit entrypoint for the Market Intelligence Agent dashboard."""
-
+// This file defines the Streamlit app that serves as the user interface for the Market Intelligence Agent.
 from __future__ import annotations
 
 import hashlib
