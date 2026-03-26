@@ -1,0 +1,8 @@
+streamlit
+crewai
+crewai-tools
+google-generativeai
+python-dotenv
+requests
+sentence-transformers
+pydantic
