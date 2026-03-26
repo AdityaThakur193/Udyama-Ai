@@ -1,31 +1,35 @@
-"""Follow-up Q&A helper using report context and Gemini integration placeholder."""
+"""Follow-up Q&A helper using report context and Gemini integration."""
 
 from __future__ import annotations
 
 import json
 
+import google.generativeai as genai
+
 from market_agent.core.schema import MarketResearchReport
+from market_agent.core.settings import GEMINI_API_KEY
 
 
 def answer_followup(question: str, report: MarketResearchReport) -> str:
-    """Return a concise answer grounded in the generated market report."""
+    """Return a concise answer grounded in the generated market report using Gemini Flash."""
     cleaned = question.strip()
     if not cleaned:
         return "Please enter a follow-up question."
 
     context_json = json.dumps(report.model_dump(), indent=2)
 
-    # TODO: Integrate Gemini Flash here using google-generativeai with GEMINI_API_KEY.
-    # Prompt design should include context_json and cleaned, then return model text.
-    _prompt = (
+    prompt = (
         "You are a market intelligence assistant. "
-        "Answer using only the report context.\n"
-        f"Report JSON:\n{context_json}\n\n"
-        f"Question: {cleaned}"
+        "Answer the user's question using ONLY the provided report context. "
+        "Be concise and practical.\n\n"
+        f"Report Data:\n{context_json}\n\n"
+        f"User Question: {cleaned}"
     )
 
-    return (
-        f"Based on the current report for {report.idea} in {report.region}, "
-        "the most practical next step is to validate one entry recommendation with a small pilot, "
-        "then refine pricing and positioning from user feedback."
-    )
+    try:
+        genai.configure(api_key=GEMINI_API_KEY)
+        model = genai.GenerativeModel("gemini-2.5-flash")
+        response = model.generate_content(prompt)
+        return response.text
+    except Exception as e:
+        return f"Error generating response: {str(e)}"
