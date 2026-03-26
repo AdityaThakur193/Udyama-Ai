@@ -23,6 +23,7 @@ def _build_crew(idea: str, region: str, segment: str, depth: str) -> Crew:
 
     llm = _get_crewai_llm()
 
+    # Create specialized agents that hand off outputs across a sequential workflow.
     market_researcher = Agent(tools=[serper_tool], llm=llm, verbose=True, **AGENT_ROLES["MarketResearcher"])
     competitor_analyst = Agent(tools=[serper_tool], llm=llm, verbose=True, **AGENT_ROLES["CompetitorAnalyst"])
     pricing_strategist = Agent(tools=[serper_tool], llm=llm, verbose=True, **AGENT_ROLES["PricingStrategist"])
@@ -138,6 +139,7 @@ def run_research_crew(
 
 def _build_report_from_output(raw_output: str, idea: str, region: str, segment: str) -> MarketResearchReport:
     """Parse crew output into structured report fields with JSON-first fallback."""
+    # Prefer strict JSON output, then gracefully fall back to text extraction.
     parsed = _extract_json_payload(raw_output)
 
     if parsed is None:

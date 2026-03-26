@@ -22,6 +22,7 @@ def _read_secret(name: str) -> str | None:
 
 
 def _required_secret(name: str) -> str:
+    # Fail fast at import time so missing credentials are surfaced immediately.
     value = _read_secret(name)
     if value:
         return value

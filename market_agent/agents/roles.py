@@ -1,5 +1,6 @@
 """Role definitions and prompts for each research agent."""
 
+# Centralized role map keeps prompts reusable across crew construction.
 AGENT_ROLES = {
     "MarketResearcher": {
         "role": "Market Research Specialist",

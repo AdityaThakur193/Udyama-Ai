@@ -16,6 +16,7 @@ def answer_followup(question: str, report: MarketResearchReport) -> str:
     if not cleaned:
         return "Please enter a follow-up question."
 
+    # Serialize the report so the model answers only from known research context.
     context_json = json.dumps(report.model_dump(), indent=2)
 
     prompt = (

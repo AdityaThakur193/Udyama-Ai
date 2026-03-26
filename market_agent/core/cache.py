@@ -15,6 +15,7 @@ _REPORTS_DIR = Path(__file__).resolve().parents[1] / "reports"
 
 
 def _report_path(signature: str) -> Path:
+    # Hashing keeps filenames short and filesystem-safe.
     digest = hashlib.sha256(signature.encode("utf-8")).hexdigest()[:16]
     return _REPORTS_DIR / f"{digest}.json"
 

@@ -10,6 +10,7 @@ from pydantic import BaseModel, ConfigDict
 class Competitor(BaseModel):
     """Represents one competitor in the target market."""
 
+    # Ignore unknown keys so partial/extra model outputs do not fail validation.
     model_config = ConfigDict(extra="ignore")
 
     name: str

@@ -1,5 +1,5 @@
 """Streamlit entrypoint for the Market Intelligence Agent dashboard."""
-// This file defines the Streamlit app that serves as the user interface for the Market Intelligence Agent.
+# This module defines the Streamlit interface for running and exploring market research outputs.
 from __future__ import annotations
 
 import hashlib
@@ -407,6 +407,8 @@ def bullet_card(items: list[str], empty: str) -> None:
     for bullet in items:
         st.markdown(f"<div class='metric-card'>{escape(bullet)}</div>", unsafe_allow_html=True)
 
+
+# Initialize app state once so navigation does not reset current results.
 if "report" not in st.session_state:
     st.session_state.report = None
 if "agent_log" not in st.session_state:
