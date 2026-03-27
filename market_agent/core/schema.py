@@ -29,6 +29,7 @@ class MarketResearchReport(BaseModel):
     region: str
     segment: str
     market_overview: str
+    market_cap: Optional[str] = None
     competitors: list[Competitor]
     pricing_models: list[str]
     pain_points: list[str]

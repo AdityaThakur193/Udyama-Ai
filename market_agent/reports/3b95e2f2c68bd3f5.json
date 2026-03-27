@@ -1,0 +1,388 @@
+{
+  "signature": "9c1236ed75745193831f77e5182cebe8914cc6c6acf74c9f7be8d1442b1ad711",
+  "report": {
+    "idea": "clothes business focused on gen-z",
+    "region": "India, US",
+    "segment": "Consumers, Gig Workers, SMEs, Enterprises, Students, Healthcare, Farmers",
+    "market_overview": "The Gen Z fashion market in both India and the United States represents a significant and rapidly expanding consumer segment with distinctive preferences and substantial spending power. In India, Gen Z is projected to account for 27% of the population and drive nearly $1.3 trillion in consumption by 2030, with fashion contributing half of this industry. They currently drive 40-50% of fashion spending and comprise nearly one-third of online fashion shoppers, reshaping India's $150 billion lifestyle market. Key trends include bold self-expression, comfort and casualization (relaxed fits, oversized clothing, gender-neutral basics), luxury streetwear, athleisure, a growing interest in thrift culture and sustainability, and a fusion of traditional Indian wear with modern styling. Digital-first discovery, influencer influence, and a preference for fast fashion items priced below Rs 1,000 are also prominent. Growth is driven by increasing disposable income, high digital adoption, and a desire for authenticity. In the United States, Gen Z and Gen Alpha are set to drive 40% of the fashion market over the next decade, with Gen Z's average annual apparel expenditure at approximately $1,700 and a total purchasing power of $66 billion. North America alone dominated the Gen Z fashion market share with $44.9 billion in 2025. US Gen Z prioritize authenticity, value, and sustainability, significantly driving the secondhand market (62% look for secondhand first), which is projected to reach $82 billion by 2026. Popular trends include oversized silhouettes, streetwear, Y2K revival, and athleisure. They are digital natives, preferring online shopping for efficiency and affordability, with social media being a primary discovery and purchasing channel. Personalization, curation, limited drops, and design-led value options are highly desired. Growth drivers include their digital native behavior, strong focus on values (sustainability, ethics), resilience in spending, and the pervasive influence of social media and creators.",
+    "competitors": [
+      {
+        "name": "Bewakoof",
+        "description": "Part of Aditya Birla Digital Ventures (TMRW), offering trendy and affordable fashion.",
+        "url": "https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/",
+        "strengths": "['Trendy and affordable fashion', 'Strong marketing and distribution backing']",
+        "weaknesses": "['Potential scrutiny regarding sustainability and ethical practices']"
+      },
+      {
+        "name": "Urbano",
+        "description": "Part of Aditya Birla's TMRW, focusing on urban wear.",
+        "url": "https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/",
+        "strengths": "[\"Strong backing and reach from Aditya Birla's TMRW\"]",
+        "weaknesses": "['Potential concerns regarding fast-fashion practices']"
+      },
+      {
+        "name": "Veirdo",
+        "description": "Part of Aditya Birla's TMRW.",
+        "url": "https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/",
+        "strengths": "[\"Strong backing from Aditya Birla's TMRW\"]",
+        "weaknesses": "['Potential fast-fashion concerns']"
+      },
+      {
+        "name": "Wrogn",
+        "description": "Part of Aditya Birla's TMRW.",
+        "url": "https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/",
+        "strengths": "[\"Strong backing from Aditya Birla's TMRW\"]",
+        "weaknesses": "['Potential fast-fashion concerns']"
+      },
+      {
+        "name": "OWND! by ABFRL",
+        "description": "Launched by Aditya Birla Fashion & Retail Ltd., explicitly value-driven and targeted at Gen Z with bold designs.",
+        "url": "https://indiafashionicon.com/blog/2025/12/20/9-genz-fashion-brands-2025/",
+        "strengths": "['Value-driven and bold designs specifically for Gen Z', \"Strong understanding of target demographic's preferences\"]",
+        "weaknesses": "['New launch, brand recognition and customer loyalty might still be developing']"
+      },
+      {
+        "name": "Prxkhr",
+        "description": "Known for graphic-heavy streetwear.",
+        "url": "https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/",
+        "strengths": "['Graphic-heavy streetwear aligns with bold Gen Z aesthetic and self-expression']",
+        "weaknesses": "['May have a niche appeal, limiting broader market reach']"
+      },
+      {
+        "name": "Urban Monkey",
+        "description": "New Age Indian Streetwear Unisex Clothing Brand.",
+        "url": "https://www.urbanmonkey.com/",
+        "strengths": "['Streetwear and unisex appeal', 'Free shipping and easy returns']",
+        "weaknesses": "['Intense competition in the growing streetwear market']"
+      },
+      {
+        "name": "Exhale Label",
+        "description": "Mentioned alongside other Gen Z-focused brands.",
+        "url": "https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/",
+        "strengths": "[]",
+        "weaknesses": "['Limited information available']"
+      },
+      {
+        "name": "GENRAGE",
+        "description": "Positions itself as one of the best streetwear brands in India, offering fashionable, sustainable, and high-quality clothing at budget-friendly prices.",
+        "url": "https://genrage.com/",
+        "strengths": "['Fashionable, sustainable, high-quality, and budget-friendly', 'Hits multiple Gen Z preferences']",
+        "weaknesses": "[\"'Budget-friendly' might imply perceived lower quality\"]"
+      },
+      {
+        "name": "The Souled Store",
+        "description": "Has a 'Gen Z Collection' offering a variety of casual wear like flared joggers and cropped tops.",
+        "url": "https://www.thesouledstore.com/gen-z-collection",
+        "strengths": "['Directly targets Gen Z with specific collection', 'Variety of casual wear']",
+        "weaknesses": "['May be perceived as a more general fashion brand rather than a pure Gen Z specialist']"
+      },
+      {
+        "name": "Six5Six",
+        "description": "Sports-inspired streetwear.",
+        "url": "https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/",
+        "strengths": "['Sports-inspired streetwear caters to athleisure trend']",
+        "weaknesses": "['Niche focus might limit appeal to those seeking broader styles']"
+      },
+      {
+        "name": "No Nasties",
+        "description": "Positions itself as 'India's most sustainable clothing brand,' using 100% organic cotton.",
+        "url": "https://www.nonasties.in/",
+        "strengths": "['Strong appeal to eco-conscious Gen Z consumers', 'Commitment to 100% organic cotton']",
+        "weaknesses": "['Higher price points due to sustainable materials, potentially conflicting with budget-consciousness']"
+      },
+      {
+        "name": "Doodlage",
+        "description": "Leaders in upcycled and sustainable fashion, combating waste in the industry.",
+        "url": "https://www.fibre2fashion.com/industry-article/10101/top-26-sustainable-fashion-brands-in-india",
+        "strengths": "[\"Directly addresses Gen Z's interest in sustainability and circular fashion\", 'Leaders in upcycled fashion']",
+        "weaknesses": "['Upcycled fashion may not scale for mass production or consistent inventory']"
+      },
+      {
+        "name": "GRWM",
+        "description": "Pitched as 'India's first Gen Z thrift marketplace.'",
+        "url": "https://www.instagram.com/reel/DPEagqPEsmv/",
+        "strengths": "[\"Strong focus on Gen Z's thrifting preferences\"]",
+        "weaknesses": "['Newer platform, needs to build trust and user base']"
+      },
+      {
+        "name": "Rewago India",
+        "description": "Online thrift store offering fashionable and affordable pre-loved clothing and accessories.",
+        "url": "https://www.rewago.in/",
+        "strengths": "['Offers fashionable and affordable pre-loved items']",
+        "weaknesses": "['Competition from other online and offline thrift options']"
+      },
+      {
+        "name": "FreeUp",
+        "description": "India's largest thrifting app, offering doorstep pickup and delivery.",
+        "url": "https://www.instagram.com/freeup_app/",
+        "strengths": "['Significant user base and established platform', 'Convenient doorstep pickup and delivery']",
+        "weaknesses": "['Requires users to be comfortable with a mobile-first experience']"
+      },
+      {
+        "name": "Myntra Re-love",
+        "description": "Backed by a major e-commerce player, offering a trusted and integrated platform for secondhand fashion.",
+        "url": "https://www.linkedin.com/pulse/thrift-culture-rise-what-gen-zs-choices-vdxac",
+        "strengths": "['Trusted platform due to Myntra backing', 'Integrated secondhand fashion offering']",
+        "weaknesses": "[\"Might not have the 'underground' or unique vibe sought by some Gen Z thrifters\"]"
+      },
+      {
+        "name": "Lululemon",
+        "description": "Strong in athleisure, known for quality and brand loyalty.",
+        "url": "https://www.lululemon.com/",
+        "strengths": "['Strong athleisure presence', 'Quality products and brand loyalty']",
+        "weaknesses": "['Higher price point may be a barrier for some budget-conscious Gen Z']"
+      },
+      {
+        "name": "Nike",
+        "description": "Global brand with immense recognition and strong presence in athleisure and streetwear.",
+        "url": "https://www.nike.com/",
+        "strengths": "['Global brand recognition', 'Strong presence in athleisure and streetwear']",
+        "weaknesses": "['Higher price points for certain items', \"Pervasive presence might mean less 'unique' appeal\"]"
+      },
+      {
+        "name": "SHEIN",
+        "description": "Ultra-fast fashion with extremely low price points, appealing to Gen Z's budget-consciousness.",
+        "url": "https://us.shein.com/",
+        "strengths": "['Extremely low price points', 'Appeals to budget-consciousness and desire for new trends', 'Highly effective social media marketing']",
+        "weaknesses": "['Significant criticism regarding ethical labor practices, environmental impact, and product quality']"
+      },
+      {
+        "name": "H&M",
+        "description": "Global fast-fashion retailer offering trendy and affordable options, with some efforts towards sustainable collections.",
+        "url": "https://www2.hm.com/en_us/",
+        "strengths": "['Trendy and affordable options', 'Efforts towards sustainable collections']",
+        "weaknesses": "['Faces ethical and environmental criticisms as other fast-fashion brands']"
+      },
+      {
+        "name": "Zara",
+        "description": "Known for quickly adapting to fashion trends and offering stylish options at relatively affordable prices.",
+        "url": "https://www.zara.com/us/",
+        "strengths": "['Quickly adapts to fashion trends', 'Stylish options at relatively affordable prices']",
+        "weaknesses": "['Another fast-fashion giant with associated ethical and environmental concerns']"
+      },
+      {
+        "name": "Urban Outfitters",
+        "description": "Curated selection of trendy clothing, accessories, and home goods often appealing to Gen Z's aesthetic.",
+        "url": "https://www.urbanoutfitters.com/",
+        "strengths": "['Curated selection of trendy items', 'Caterson to bohemian and edgy styles']",
+        "weaknesses": "['Can be perceived as expensive', 'Faced criticism for cultural appropriation']"
+      },
+      {
+        "name": "Abercrombie & Fitch",
+        "description": "A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.",
+        "url": "https://www.abercrombie.com/",
+        "strengths": "['Nostalgic styles appeal to Y2K trend', 'Familiar brand']",
+        "weaknesses": "['Historically associated with a specific aesthetic', 'Previous brand image issues']"
+      },
+      {
+        "name": "Aeropostale",
+        "description": "A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.",
+        "url": "https://www.aeropostale.com/",
+        "strengths": "['Nostalgic styles appeal to Y2K trend', 'Familiar brand']",
+        "weaknesses": "['Historically associated with a specific aesthetic']"
+      },
+      {
+        "name": "Hollister",
+        "description": "A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.",
+        "url": "https://www.hollisterco.com/",
+        "strengths": "['Nostalgic styles appeal to Y2K trend', 'Familiar brand']",
+        "weaknesses": "['Historically associated with a specific aesthetic']"
+      },
+      {
+        "name": "PacSun",
+        "description": "A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.",
+        "url": "https://www.pacsun.com/",
+        "strengths": "['Nostalgic styles appeal to Y2K trend', 'Familiar brand']",
+        "weaknesses": "['Historically associated with a specific aesthetic']"
+      },
+      {
+        "name": "Supreme",
+        "description": "Iconic streetwear brand with high demand and strong cultural relevance.",
+        "url": "https://www.supremenewyork.com/",
+        "strengths": "['Iconic streetwear brand', 'High demand and cultural relevance', 'Limited drops create hype and exclusivity']",
+        "weaknesses": "['High price points', 'Difficult to acquire items']"
+      },
+      {
+        "name": "Stussy",
+        "description": "Long-standing and influential streetwear brand, known for its authentic roots and consistent aesthetic.",
+        "url": "https://www.stussy.com/",
+        "strengths": "['Long-standing and influential', 'Authentic roots and consistent aesthetic']",
+        "weaknesses": "[\"May not be as 'hyped' as newer brands for some segments of Gen Z\"]"
+      },
+      {
+        "name": "Patagonia",
+        "description": "Strong and authentic commitment to environmental and social responsibility. High-quality, durable outdoor wear.",
+        "url": "https://www.patagonia.com/",
+        "strengths": "['Authentic commitment to environmental and social responsibility', 'High-quality, durable outdoor wear', 'Appeals strongly to values-driven Gen Z']",
+        "weaknesses": "['Primarily an outdoor brand, niche fashion appeal for everyday wear', 'Higher price point']"
+      },
+      {
+        "name": "CHNGE",
+        "description": "Explicitly focused on sustainability and ethics with high-quality clothes.",
+        "url": "https://chnge.com/",
+        "strengths": "['Explicitly aligns with Gen Z values of sustainability and ethics', 'High-quality clothes']",
+        "weaknesses": "[\"'A bit pricey', a deterrent for some budget-conscious Gen Z consumers\"]"
+      },
+      {
+        "name": "Kotn",
+        "description": "Ethically made cotton staples with modern tailoring, strong for basics like tees and sweats.",
+        "url": "https://kotn.com/",
+        "strengths": "['Ethically made cotton staples', 'Modern tailoring', 'Transparency in supply chain']",
+        "weaknesses": "['May be perceived as a more minimalist brand, potentially less appealing to Gen Z seeking bold self-expression']"
+      },
+      {
+        "name": "tentree",
+        "description": "Casual basics made with recycled fibers, emphasizing environmental impact by planting ten trees for every item purchased.",
+        "url": "https://www.tentree.com/",
+        "strengths": "['Eco-friendly narrative (plants ten trees per item)', 'Uses recycled fibers']",
+        "weaknesses": "['May lean more towards basic styles']"
+      },
+      {
+        "name": "Depop",
+        "description": "Highly popular with Gen Z, offering a social commerce experience for unique, often vintage or secondhand items.",
+        "url": "https://www.depop.com/",
+        "strengths": "['Social commerce experience', 'Focus on individuality and curated aesthetics', 'Highly popular with Gen Z']",
+        "weaknesses": "['Inconsistent product quality and authenticity', 'High competition among sellers']"
+      },
+      {
+        "name": "Poshmark",
+        "description": "Large and established platform for buying and selling new and used fashion, offering a wide variety of brands and styles.",
+        "url": "https://poshmark.com/",
+        "strengths": "['Large and established platform', 'Wide variety of brands and styles']",
+        "weaknesses": "['Higher fees for sellers', \"Less of a 'cool' or niche aesthetic compared to Depop\"]"
+      },
+      {
+        "name": "ThredUp",
+        "description": "A large online consignment and thrift store with a focus on convenience and a more curated experience.",
+        "url": "https://www.thredup.com/",
+        "strengths": "['Curated and quality-controlled experience', 'Focus on convenience']",
+        "weaknesses": "['Less control for sellers over pricing', 'Inventory dependent on consigned items']"
+      },
+      {
+        "name": "eBay",
+        "description": "Global marketplace with a massive selection of new and used items, including fashion.",
+        "url": "https://www.ebay.com/",
+        "strengths": "['Global marketplace with massive selection', 'Established and trusted platform']",
+        "weaknesses": "['Can be overwhelming due to volume of listings', 'Less specialized for fashion compared to dedicated resale apps']"
+      },
+      {
+        "name": "Vinted",
+        "description": "Popular in the US and Europe for selling and buying secondhand clothing, often with lower fees.",
+        "url": "https://www.vinted.com/",
+        "strengths": "['Popular in US and Europe', 'Often lower fees']",
+        "weaknesses": "['May have a more casual aesthetic']"
+      },
+      {
+        "name": "Goodwill",
+        "description": "Highly accessible and affordable secondhand option through online and physical stores.",
+        "url": "https://www.goodwill.org/",
+        "strengths": "['Highly accessible and affordable', \"Appeals to Gen Z's interest in thrifting and sustainability\"]",
+        "weaknesses": "['Inventory is highly variable', 'Often requires significant searching for desired items']"
+      }
+    ],
+    "pricing_models": [
+      "This model offers a range of price points for different product lines, categorizing them based on material quality, design complexity, sustainability features, and perceived exclusivity.",
+      "Customers pay a recurring fee (monthly/quarterly) for exclusive access to limited-edition drops, early access to new collections, or personalized curated boxes based on their style preferences.",
+      "The business offers customers store credit or discounts on new purchases when they return gently used items from the brand's previous collections. These returned items are then refurbished and resold at a lower price point through the brand's own 're-loved' section or a dedicated resale platform.",
+      "Implement time-sensitive discounts, flash sales, or exclusive bundles promoted heavily by relevant social media influencers. Pricing can be dynamic, with steeper discounts for influencer codes that generate high engagement or volume, or limited-time offers tied to influencer campaigns.",
+      "Customers can create their own bundles of complementary items (e.g., a top, bottom, and accessory; or multiple basics) from a curated selection at a discounted price compared to buying each item individually."
+    ],
+    "pain_points": [
+      "The 'Sustainability vs. Affordability' Paradox: High Cost of Ethical and Sustainable Fashion (India & US)",
+      "Lack of Truly Unique and Authentic Options for Self-Expression from Mainstream Brands (India & US)",
+      "Inconsistency, Lack of Trust, and Limited Curation in Secondhand and Resale Markets (India & US)",
+      "Limited Availability and Variety of Specific Trend-Driven Styles, Especially for Fusion and Niche Aesthetics (India & US)"
+    ],
+    "entry_recommendations": [
+      "Emphasize transparency in sourcing, production, and a commitment to sustainability to resonate with Gen Z's values.",
+      "Offer a wide range of sizes and gender-neutral options to cater to Gen Z's desire for inclusivity and self-expression.",
+      "Provide options for customization or curated collections that feel unique and individual.",
+      "Leverage platforms like Instagram, TikTok, and other emerging social commerce channels for marketing, sales, and community building.",
+      "Balance on-trend styles with accessible price points, especially for the Indian market, where fast fashion below Rs 1,000 is popular.",
+      "Design clothes that are comfortable, versatile, and suitable for a variety of casual settings.",
+      "Explore partnerships or integrate resale programs to appeal to Gen Z's interest in secondhand clothing.",
+      "Sharing the brand's story and the inspiration behind designs can create a deeper connection.",
+      "Blend online and offline shopping experiences to cater to their preference for both."
+    ],
+    "sources": [
+      "https://m.economictimes.com/news/economy/indicators/gen-z-to-drive-usd-1-3-trillion-spending-in-india-by-2030-report/articleshow/129589357.cms",
+      "https://www.linkedin.com/posts/parulbajaj_gen-z-indias-largest-generation-at-377-activity-7391008952806793217-Rwfd",
+      "https://powercommerce.com/blogs/ecommerce-hub/gen-z-the-driving-force-behind-indias-fashion-revolution?srsltid=AfmBOorC27c0Yf8KO0boD9lIBTkzF5pQTzN8Dr0pxt-EcDPTDygNkAiK",
+      "https://elle.in/teens/welcome-to-gen-z-fashion-11176816",
+      "https://genzprints.in/blogs/style-guide/gen-z-fashion-trends-india-2026?srsltid=AfmBOoqLFfu0Fl3iW-yVG4q1mABcOHfSCjpeA-FmFw1Bn467UfgKr7qk",
+      "https://lyvn.in/blogs/news/how-gen-z-fashion-trends-are-breaking-norms-in-india?srsltid=AfmBOooDZ8pKcWrLEpEHIDOBl7osH7slwEP_qgHa_Z2RZiY8wF8DVIIc",
+      "https://www.farak.co/blogs/fashion/why-millennials-and-gen-z-are-loving-luxury-streetwear-in-india?srsltid=AfmBOorZXzbGgMfQIrf4r2k1qDx-wo5YOmqRo26WsVv9_QOw0zHka2IP",
+      "https://bamboologytrends.com/blogs/read-more/gen-z-wardrobe-essentials-india-ultimate-guide-for-daily-vibes-style?srsltid=AfmBOoq41nUfnJ7435zRI-OmkdIVaQtauaQWMNjjHrmgBRjxoqMc2rPy",
+      "https://www.shadeofyou.com/blogs/news/genz-fashion-trends-india?srsltid=AfmBOor6DJ8KXuDi05rrO178bcOEKTIKDFY8lgyBw_Tdpiiq_jMrHxv7",
+      "https://kpmg.com/in/en/blogs/2025/07/gen-z-and-the-digital-revolution-fueling-the-next-phase-of-retail-growth.html",
+      "https://www.tjori.com/blogs/news/why-gen-z-is-falling-in-love-with-traditional-indian-wear-again?srsltid=AfmBOopcgQrs6EbgZHq8ics5N1ICKB6zR4UvBeskYQOjBb3oDFcGEqbP",
+      "https://www.kotakmf.com/Information/blogs/the-gen-z-effect-on-consumption_",
+      "https://www.facebook.com/DeloitteIndia/posts/gen-z-in-india-is-reshaping-the-fashion-landscape-by-prioritising-style-and-affo/1681498315806991/",
+      "https://www.livemint.com/mint-lounge/style/gen-z-fast-fashion-online-shopping-style-trends-myntra-style-trends-shein-11749204068251.html",
+      "https://www.linkedin.com/posts/benori-knowledge-solutions_indianretail-onlinefashion-ecommerce-activity-7418952766372573184-gkYD",
+      "https://www.bcg.com/publications/2025/how-gen-z-gen-alpha-rewiring-fashion-industry",
+      "https://finance.yahoo.com/news/gen-z-gen-alpha-set-040100992.html",
+      "https://www.statista.com/topics/9997/generation-z-fashion-in-the-united-states/?srsltid=AfmBOoopz-ibAE2-84EM6EP799JpnpCngbJ1POMBYtGJ8prk_VJIfbqg",
+      "https://www.exportusa.eu/gen-z-trends-united-states.php",
+      "https://www.htfmarketinsights.com/report/4373133-gen-z-fashion-market",
+      "https://www.forbes.com/sites/gregpetro/2025/11/07/the-gen-z-fashion-trend-thats-baffling-apparel-retailers/",
+      "https://www.gwi.com/blog/gen-z-spending-habits",
+      "https://rawshot.ai/statistic/gen-z-fashion/",
+      "https://www.instyle.com/gen-z-style-8685334",
+      "https://aestheticbk.com/blogs/news/gen-z-fashion-trends?srsltid=AfmBOooGxz7wrPmQWeCkEdCssPecKgL9oZiz7I1W3qBWXVhN_k_AomJY",
+      "https://www.printful.com/blog/gen-z-fashion",
+      "https://www.mintel.com/insights/retail/gen-z-online-shopping-behaviour-and-trends-what-brands-need-to-know/",
+      "https://www.statista.com/topics/11087/gen-z-online-shopping-behavior/?srsltid=AfmBOorUxVytwvhLjwqhVq6ksIpp5SuwjhsDjGAkelFUwA-EiOYJegRf",
+      "https://www.pwc.com/us/en/industries/consumer-markets/library/gen-z-consumer-trends.html",
+      "https://www.researchandmetric.com/blog/gen-z-shopping-habits-retail-2025/",
+      "https://www.just-style.com/news/us-apparel-spending-2025/",
+      "https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/",
+      "https://indiafashionicon.com/blog/2025/12/20/9-genz-fashion-brands-2025/",
+      "https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/",
+      "https://www.urbanmonkey.com/",
+      "https://genrage.com/",
+      "https://www.thesouledstore.com/gen-z-collection",
+      "https://www.nonasties.in/",
+      "https://www.fibre2fashion.com/industry-article/10101/top-26-sustainable-fashion-brands-in-india",
+      "https://www.instagram.com/reel/DPEagqPEsmv/",
+      "https://www.rewago.in/",
+      "https://www.instagram.com/freeup_app/",
+      "https://www.linkedin.com/pulse/thrift-culture-rise-what-gen-zs-choices-vdxac",
+      "https://www.lululemon.com/",
+      "https://www.reddit.com/r/GenZ/comments/1l83dn1/what_are_the_popular_clothing_brands_now/",
+      "https://fashionunited.com/news/retail/gen-z-s-top-fashion-brands-of-2023/2023122957612",
+      "https://www.nike.com/",
+      "https://us.shein.com/",
+      "https://www.opeepl.com/blog/unveiling-gen-z-favourite-clothing-brands",
+      "https://www2.hm.com/en_us/",
+      "https://www.zara.com/us/",
+      "https://www.urbanoutfitters.com/",
+      "https://www.ldnfashion.com/features/fashion-brands-gen-z-love/",
+      "https://www.abercrombie.com/",
+      "https://www.aeropostale.com/",
+      "https://www.hollisterco.com/",
+      "https://www.pacsun.com/",
+      "https://www.businessoffashion.com/articles/retail/legacy-teen-retailers-hollister-american-eagle-pacsun-y2k-gen-z-tiktok/",
+      "https://www.supremenewyork.com/",
+      "https://www.highsnobiety.com/p/streetwear-brands/",
+      "https://www.stussy.com/",
+      "https://www.patagonia.com/",
+      "https://yougov.com/en-us/articles/51078-sustainable-choices-what-fashion-brands-do-eco-conscious-americans-prefer",
+      "https://chnge.com/",
+      "https://www.reddit.com/r/SustainableFashion/comments/11i8ho9/sustainable_brands-for-young-gen-z-women/",
+      "https://kotn.com/",
+      "https://ecobearwear.com/a/blog/non-fast-fashion-brands-gen-z",
+      "https://www.tentree.com/",
+      "https://www.depop.com/",
+      "https://www.businessinsider.com/gen-z-survey-tell-us-where-you-shop-apps-2026-1",
+      "https://poshmark.com/",
+      "https://www.modernretail.co/marketing/how-resale-apps-are-courting-gen-z-shoppers-even-as-they-embrace-fast-fashion/",
+      "https://www.thredup.com/",
+      "https://www.ebay.com/",
+      "https://www.vinted.com/",
+      "https://www.goodwill.org/",
+      "https://retailboss.substack.com/p/is-new-retail-just-resale-64-of-gen"
+    ],
+    "reasoning_log": "{\"market_overview\": \"The Gen Z fashion market in both India and the United States represents a significant and rapidly expanding consumer segment with distinctive preferences and substantial spending power. In India, Gen Z is projected to account for 27% of the population and drive nearly $1.3 trillion in consumption by 2030, with fashion contributing half of this industry. They currently drive 40-50% of fashion spending and comprise nearly one-third of online fashion shoppers, reshaping India's $150 billion lifestyle market. Key trends include bold self-expression, comfort and casualization (relaxed fits, oversized clothing, gender-neutral basics), luxury streetwear, athleisure, a growing interest in thrift culture and sustainability, and a fusion of traditional Indian wear with modern styling. Digital-first discovery, influencer influence, and a preference for fast fashion items priced below Rs 1,000 are also prominent. Growth is driven by increasing disposable income, high digital adoption, and a desire for authenticity. In the United States, Gen Z and Gen Alpha are set to drive 40% of the fashion market over the next decade, with Gen Z's average annual apparel expenditure at approximately $1,700 and a total purchasing power of $66 billion. North America alone dominated the Gen Z fashion market share with $44.9 billion in 2025. US Gen Z prioritize authenticity, value, and sustainability, significantly driving the secondhand market (62% look for secondhand first), which is projected to reach $82 billion by 2026. Popular trends include oversized silhouettes, streetwear, Y2K revival, and athleisure. They are digital natives, preferring online shopping for efficiency and affordability, with social media being a primary discovery and purchasing channel. Personalization, curation, limited drops, and design-led value options are highly desired. Growth drivers include their digital native behavior, strong focus on values (sustainability, ethics), resilience in spending, and the pervasive influence of social media and creators.\", \"competitors\": [{\"name\": \"Bewakoof\", \"description\": \"Part of Aditya Birla Digital Ventures (TMRW), offering trendy and affordable fashion.\", \"url\": \"https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/\", \"strengths\": [\"Trendy and affordable fashion\", \"Strong marketing and distribution backing\"], \"weaknesses\": [\"Potential scrutiny regarding sustainability and ethical practices\"]}, {\"name\": \"Urbano\", \"description\": \"Part of Aditya Birla's TMRW, focusing on urban wear.\", \"url\": \"https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/\", \"strengths\": [\"Strong backing and reach from Aditya Birla's TMRW\"], \"weaknesses\": [\"Potential concerns regarding fast-fashion practices\"]}, {\"name\": \"Veirdo\", \"description\": \"Part of Aditya Birla's TMRW.\", \"url\": \"https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/\", \"strengths\": [\"Strong backing from Aditya Birla's TMRW\"], \"weaknesses\": [\"Potential fast-fashion concerns\"]}, {\"name\": \"Wrogn\", \"description\": \"Part of Aditya Birla's TMRW.\", \"url\": \"https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/\", \"strengths\": [\"Strong backing from Aditya Birla's TMRW\"], \"weaknesses\": [\"Potential fast-fashion concerns\"]}, {\"name\": \"OWND! by ABFRL\", \"description\": \"Launched by Aditya Birla Fashion & Retail Ltd., explicitly value-driven and targeted at Gen Z with bold designs.\", \"url\": \"https://indiafashionicon.com/blog/2025/12/20/9-genz-fashion-brands-2025/\", \"strengths\": [\"Value-driven and bold designs specifically for Gen Z\", \"Strong understanding of target demographic's preferences\"], \"weaknesses\": [\"New launch, brand recognition and customer loyalty might still be developing\"]}, {\"name\": \"Prxkhr\", \"description\": \"Known for graphic-heavy streetwear.\", \"url\": \"https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/\", \"strengths\": [\"Graphic-heavy streetwear aligns with bold Gen Z aesthetic and self-expression\"], \"weaknesses\": [\"May have a niche appeal, limiting broader market reach\"]}, {\"name\": \"Urban Monkey\", \"description\": \"New Age Indian Streetwear Unisex Clothing Brand.\", \"url\": \"https://www.urbanmonkey.com/\", \"strengths\": [\"Streetwear and unisex appeal\", \"Free shipping and easy returns\"], \"weaknesses\": [\"Intense competition in the growing streetwear market\"]}, {\"name\": \"Exhale Label\", \"description\": \"Mentioned alongside other Gen Z-focused brands.\", \"url\": \"https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/\", \"strengths\": [], \"weaknesses\": [\"Limited information available\"]}, {\"name\": \"GENRAGE\", \"description\": \"Positions itself as one of the best streetwear brands in India, offering fashionable, sustainable, and high-quality clothing at budget-friendly prices.\", \"url\": \"https://genrage.com/\", \"strengths\": [\"Fashionable, sustainable, high-quality, and budget-friendly\", \"Hits multiple Gen Z preferences\"], \"weaknesses\": [\"'Budget-friendly' might imply perceived lower quality\"]}, {\"name\": \"The Souled Store\", \"description\": \"Has a 'Gen Z Collection' offering a variety of casual wear like flared joggers and cropped tops.\", \"url\": \"https://www.thesouledstore.com/gen-z-collection\", \"strengths\": [\"Directly targets Gen Z with specific collection\", \"Variety of casual wear\"], \"weaknesses\": [\"May be perceived as a more general fashion brand rather than a pure Gen Z specialist\"]}, {\"name\": \"Six5Six\", \"description\": \"Sports-inspired streetwear.\", \"url\": \"https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/\", \"strengths\": [\"Sports-inspired streetwear caters to athleisure trend\"], \"weaknesses\": [\"Niche focus might limit appeal to those seeking broader styles\"]}, {\"name\": \"No Nasties\", \"description\": \"Positions itself as 'India's most sustainable clothing brand,' using 100% organic cotton.\", \"url\": \"https://www.nonasties.in/\", \"strengths\": [\"Strong appeal to eco-conscious Gen Z consumers\", \"Commitment to 100% organic cotton\"], \"weaknesses\": [\"Higher price points due to sustainable materials, potentially conflicting with budget-consciousness\"]}, {\"name\": \"Doodlage\", \"description\": \"Leaders in upcycled and sustainable fashion, combating waste in the industry.\", \"url\": \"https://www.fibre2fashion.com/industry-article/10101/top-26-sustainable-fashion-brands-in-india\", \"strengths\": [\"Directly addresses Gen Z's interest in sustainability and circular fashion\", \"Leaders in upcycled fashion\"], \"weaknesses\": [\"Upcycled fashion may not scale for mass production or consistent inventory\"]}, {\"name\": \"GRWM\", \"description\": \"Pitched as 'India's first Gen Z thrift marketplace.'\", \"url\": \"https://www.instagram.com/reel/DPEagqPEsmv/\", \"strengths\": [\"Strong focus on Gen Z's thrifting preferences\"], \"weaknesses\": [\"Newer platform, needs to build trust and user base\"]}, {\"name\": \"Rewago India\", \"description\": \"Online thrift store offering fashionable and affordable pre-loved clothing and accessories.\", \"url\": \"https://www.rewago.in/\", \"strengths\": [\"Offers fashionable and affordable pre-loved items\"], \"weaknesses\": [\"Competition from other online and offline thrift options\"]}, {\"name\": \"FreeUp\", \"description\": \"India's largest thrifting app, offering doorstep pickup and delivery.\", \"url\": \"https://www.instagram.com/freeup_app/\", \"strengths\": [\"Significant user base and established platform\", \"Convenient doorstep pickup and delivery\"], \"weaknesses\": [\"Requires users to be comfortable with a mobile-first experience\"]}, {\"name\": \"Myntra Re-love\", \"description\": \"Backed by a major e-commerce player, offering a trusted and integrated platform for secondhand fashion.\", \"url\": \"https://www.linkedin.com/pulse/thrift-culture-rise-what-gen-zs-choices-vdxac\", \"strengths\": [\"Trusted platform due to Myntra backing\", \"Integrated secondhand fashion offering\"], \"weaknesses\": [\"Might not have the 'underground' or unique vibe sought by some Gen Z thrifters\"]}, {\"name\": \"Lululemon\", \"description\": \"Strong in athleisure, known for quality and brand loyalty.\", \"url\": \"https://www.lululemon.com/\", \"strengths\": [\"Strong athleisure presence\", \"Quality products and brand loyalty\"], \"weaknesses\": [\"Higher price point may be a barrier for some budget-conscious Gen Z\"]}, {\"name\": \"Nike\", \"description\": \"Global brand with immense recognition and strong presence in athleisure and streetwear.\", \"url\": \"https://www.nike.com/\", \"strengths\": [\"Global brand recognition\", \"Strong presence in athleisure and streetwear\"], \"weaknesses\": [\"Higher price points for certain items\", \"Pervasive presence might mean less 'unique' appeal\"]}, {\"name\": \"SHEIN\", \"description\": \"Ultra-fast fashion with extremely low price points, appealing to Gen Z's budget-consciousness.\", \"url\": \"https://us.shein.com/\", \"strengths\": [\"Extremely low price points\", \"Appeals to budget-consciousness and desire for new trends\", \"Highly effective social media marketing\"], \"weaknesses\": [\"Significant criticism regarding ethical labor practices, environmental impact, and product quality\"]}, {\"name\": \"H&M\", \"description\": \"Global fast-fashion retailer offering trendy and affordable options, with some efforts towards sustainable collections.\", \"url\": \"https://www2.hm.com/en_us/\", \"strengths\": [\"Trendy and affordable options\", \"Efforts towards sustainable collections\"], \"weaknesses\": [\"Faces ethical and environmental criticisms as other fast-fashion brands\"]}, {\"name\": \"Zara\", \"description\": \"Known for quickly adapting to fashion trends and offering stylish options at relatively affordable prices.\", \"url\": \"https://www.zara.com/us/\", \"strengths\": [\"Quickly adapts to fashion trends\", \"Stylish options at relatively affordable prices\"], \"weaknesses\": [\"Another fast-fashion giant with associated ethical and environmental concerns\"]}, {\"name\": \"Urban Outfitters\", \"description\": \"Curated selection of trendy clothing, accessories, and home goods often appealing to Gen Z's aesthetic.\", \"url\": \"https://www.urbanoutfitters.com/\", \"strengths\": [\"Curated selection of trendy items\", \"Caterson to bohemian and edgy styles\"], \"weaknesses\": [\"Can be perceived as expensive\", \"Faced criticism for cultural appropriation\"]}, {\"name\": \"Abercrombie & Fitch\", \"description\": \"A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.\", \"url\": \"https://www.abercrombie.com/\", \"strengths\": [\"Nostalgic styles appeal to Y2K trend\", \"Familiar brand\"], \"weaknesses\": [\"Historically associated with a specific aesthetic\", \"Previous brand image issues\"]}, {\"name\": \"Aeropostale\", \"description\": \"A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.\", \"url\": \"https://www.aeropostale.com/\", \"strengths\": [\"Nostalgic styles appeal to Y2K trend\", \"Familiar brand\"], \"weaknesses\": [\"Historically associated with a specific aesthetic\"]}, {\"name\": \"Hollister\", \"description\": \"A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.\", \"url\": \"https://www.hollisterco.com/\", \"strengths\": [\"Nostalgic styles appeal to Y2K trend\", \"Familiar brand\"], \"weaknesses\": [\"Historically associated with a specific aesthetic\"]}, {\"name\": \"PacSun\", \"description\": \"A 'Y2K mall brand' experiencing a resurgence with Gen Z due to the Y2K trend.\", \"url\": \"https://www.pacsun.com/\", \"strengths\": [\"Nostalgic styles appeal to Y2K trend\", \"Familiar brand\"], \"weaknesses\": [\"Historically associated with a specific aesthetic\"]}, {\"name\": \"Supreme\", \"description\": \"Iconic streetwear brand with high demand and strong cultural relevance.\", \"url\": \"https://www.supremenewyork.com/\", \"strengths\": [\"Iconic streetwear brand\", \"High demand and cultural relevance\", \"Limited drops create hype and exclusivity\"], \"weaknesses\": [\"High price points\", \"Difficult to acquire items\"]}, {\"name\": \"Stussy\", \"description\": \"Long-standing and influential streetwear brand, known for its authentic roots and consistent aesthetic.\", \"url\": \"https://www.stussy.com/\", \"strengths\": [\"Long-standing and influential\", \"Authentic roots and consistent aesthetic\"], \"weaknesses\": [\"May not be as 'hyped' as newer brands for some segments of Gen Z\"]}, {\"name\": \"Patagonia\", \"description\": \"Strong and authentic commitment to environmental and social responsibility. High-quality, durable outdoor wear.\", \"url\": \"https://www.patagonia.com/\", \"strengths\": [\"Authentic commitment to environmental and social responsibility\", \"High-quality, durable outdoor wear\", \"Appeals strongly to values-driven Gen Z\"], \"weaknesses\": [\"Primarily an outdoor brand, niche fashion appeal for everyday wear\", \"Higher price point\"]}, {\"name\": \"CHNGE\", \"description\": \"Explicitly focused on sustainability and ethics with high-quality clothes.\", \"url\": \"https://chnge.com/\", \"strengths\": [\"Explicitly aligns with Gen Z values of sustainability and ethics\", \"High-quality clothes\"], \"weaknesses\": [\"'A bit pricey', a deterrent for some budget-conscious Gen Z consumers\"]}, {\"name\": \"Kotn\", \"description\": \"Ethically made cotton staples with modern tailoring, strong for basics like tees and sweats.\", \"url\": \"https://kotn.com/\", \"strengths\": [\"Ethically made cotton staples\", \"Modern tailoring\", \"Transparency in supply chain\"], \"weaknesses\": [\"May be perceived as a more minimalist brand, potentially less appealing to Gen Z seeking bold self-expression\"]}, {\"name\": \"tentree\", \"description\": \"Casual basics made with recycled fibers, emphasizing environmental impact by planting ten trees for every item purchased.\", \"url\": \"https://www.tentree.com/\", \"strengths\": [\"Eco-friendly narrative (plants ten trees per item)\", \"Uses recycled fibers\"], \"weaknesses\": [\"May lean more towards basic styles\"]}, {\"name\": \"Depop\", \"description\": \"Highly popular with Gen Z, offering a social commerce experience for unique, often vintage or secondhand items.\", \"url\": \"https://www.depop.com/\", \"strengths\": [\"Social commerce experience\", \"Focus on individuality and curated aesthetics\", \"Highly popular with Gen Z\"], \"weaknesses\": [\"Inconsistent product quality and authenticity\", \"High competition among sellers\"]}, {\"name\": \"Poshmark\", \"description\": \"Large and established platform for buying and selling new and used fashion, offering a wide variety of brands and styles.\", \"url\": \"https://poshmark.com/\", \"strengths\": [\"Large and established platform\", \"Wide variety of brands and styles\"], \"weaknesses\": [\"Higher fees for sellers\", \"Less of a 'cool' or niche aesthetic compared to Depop\"]}, {\"name\": \"ThredUp\", \"description\": \"A large online consignment and thrift store with a focus on convenience and a more curated experience.\", \"url\": \"https://www.thredup.com/\", \"strengths\": [\"Curated and quality-controlled experience\", \"Focus on convenience\"], \"weaknesses\": [\"Less control for sellers over pricing\", \"Inventory dependent on consigned items\"]}, {\"name\": \"eBay\", \"description\": \"Global marketplace with a massive selection of new and used items, including fashion.\", \"url\": \"https://www.ebay.com/\", \"strengths\": [\"Global marketplace with massive selection\", \"Established and trusted platform\"], \"weaknesses\": [\"Can be overwhelming due to volume of listings\", \"Less specialized for fashion compared to dedicated resale apps\"]}, {\"name\": \"Vinted\", \"description\": \"Popular in the US and Europe for selling and buying secondhand clothing, often with lower fees.\", \"url\": \"https://www.vinted.com/\", \"strengths\": [\"Popular in US and Europe\", \"Often lower fees\"], \"weaknesses\": [\"May have a more casual aesthetic\"]}, {\"name\": \"Goodwill\", \"description\": \"Highly accessible and affordable secondhand option through online and physical stores.\", \"url\": \"https://www.goodwill.org/\", \"strengths\": [\"Highly accessible and affordable\", \"Appeals to Gen Z's interest in thrifting and sustainability\"], \"weaknesses\": [\"Inventory is highly variable\", \"Often requires significant searching for desired items\"]}], \"pricing_models\": [\"This model offers a range of price points for different product lines, categorizing them based on material quality, design complexity, sustainability features, and perceived exclusivity.\", \"Customers pay a recurring fee (monthly/quarterly) for exclusive access to limited-edition drops, early access to new collections, or personalized curated boxes based on their style preferences.\", \"The business offers customers store credit or discounts on new purchases when they return gently used items from the brand's previous collections. These returned items are then refurbished and resold at a lower price point through the brand's own 're-loved' section or a dedicated resale platform.\", \"Implement time-sensitive discounts, flash sales, or exclusive bundles promoted heavily by relevant social media influencers. Pricing can be dynamic, with steeper discounts for influencer codes that generate high engagement or volume, or limited-time offers tied to influencer campaigns.\", \"Customers can create their own bundles of complementary items (e.g., a top, bottom, and accessory; or multiple basics) from a curated selection at a discounted price compared to buying each item individually.\"], \"pain_points\": [\"The 'Sustainability vs. Affordability' Paradox: High Cost of Ethical and Sustainable Fashion (India & US)\", \"Lack of Truly Unique and Authentic Options for Self-Expression from Mainstream Brands (India & US)\", \"Inconsistency, Lack of Trust, and Limited Curation in Secondhand and Resale Markets (India & US)\", \"Limited Availability and Variety of Specific Trend-Driven Styles, Especially for Fusion and Niche Aesthetics (India & US)\"], \"entry_recommendations\": [\"Emphasize transparency in sourcing, production, and a commitment to sustainability to resonate with Gen Z's values.\", \"Offer a wide range of sizes and gender-neutral options to cater to Gen Z's desire for inclusivity and self-expression.\", \"Provide options for customization or curated collections that feel unique and individual.\", \"Leverage platforms like Instagram, TikTok, and other emerging social commerce channels for marketing, sales, and community building.\", \"Balance on-trend styles with accessible price points, especially for the Indian market, where fast fashion below Rs 1,000 is popular.\", \"Design clothes that are comfortable, versatile, and suitable for a variety of casual settings.\", \"Explore partnerships or integrate resale programs to appeal to Gen Z's interest in secondhand clothing.\", \"Sharing the brand's story and the inspiration behind designs can create a deeper connection.\", \"Blend online and offline shopping experiences to cater to their preference for both.\"], \"sources\": [\"https://m.economictimes.com/news/economy/indicators/gen-z-to-drive-usd-1-3-trillion-spending-in-india-by-2030-report/articleshow/129589357.cms\", \"https://www.linkedin.com/posts/parulbajaj_gen-z-indias-largest-generation-at-377-activity-7391008952806793217-Rwfd\", \"https://powercommerce.com/blogs/ecommerce-hub/gen-z-the-driving-force-behind-indias-fashion-revolution?srsltid=AfmBOorC27c0Yf8KO0boD9lIBTkzF5pQTzN8Dr0pxt-EcDPTDygNkAiK\", \"https://elle.in/teens/welcome-to-gen-z-fashion-11176816\", \"https://genzprints.in/blogs/style-guide/gen-z-fashion-trends-india-2026?srsltid=AfmBOoqLFfu0Fl3iW-yVG4q1mABcOHfSCjpeA-FmFw1Bn467UfgKr7qk\", \"https://lyvn.in/blogs/news/how-gen-z-fashion-trends-are-breaking-norms-in-india?srsltid=AfmBOooDZ8pKcWrLEpEHIDOBl7osH7slwEP_qgHa_Z2RZiY8wF8DVIIc\", \"https://www.farak.co/blogs/fashion/why-millennials-and-gen-z-are-loving-luxury-streetwear-in-india?srsltid=AfmBOorZXzbGgMfQIrf4r2k1qDx-wo5YOmqRo26WsVv9_QOw0zHka2IP\", \"https://bamboologytrends.com/blogs/read-more/gen-z-wardrobe-essentials-india-ultimate-guide-for-daily-vibes-style?srsltid=AfmBOoq41nUfnJ7435zRI-OmkdIVaQtauaQWMNjjHrmgBRjxoqMc2rPy\", \"https://www.shadeofyou.com/blogs/news/genz-fashion-trends-india?srsltid=AfmBOor6DJ8KXuDi05rrO178bcOEKTIKDFY8lgyBw_Tdpiiq_jMrHxv7\", \"https://kpmg.com/in/en/blogs/2025/07/gen-z-and-the-digital-revolution-fueling-the-next-phase-of-retail-growth.html\", \"https://www.tjori.com/blogs/news/why-gen-z-is-falling-in-love-with-traditional-indian-wear-again?srsltid=AfmBOopcgQrs6EbgZHq8ics5N1ICKB6zR4UvBeskYQOjBb3oDFcGEqbP\", \"https://www.kotakmf.com/Information/blogs/the-gen-z-effect-on-consumption_\", \"https://www.facebook.com/DeloitteIndia/posts/gen-z-in-india-is-reshaping-the-fashion-landscape-by-prioritising-style-and-affo/1681498315806991/\", \"https://www.livemint.com/mint-lounge/style/gen-z-fast-fashion-online-shopping-style-trends-myntra-style-trends-shein-11749204068251.html\", \"https://www.linkedin.com/posts/benori-knowledge-solutions_indianretail-onlinefashion-ecommerce-activity-7418952766372573184-gkYD\", \"https://www.bcg.com/publications/2025/how-gen-z-gen-alpha-rewiring-fashion-industry\", \"https://finance.yahoo.com/news/gen-z-gen-alpha-set-040100992.html\", \"https://www.statista.com/topics/9997/generation-z-fashion-in-the-united-states/?srsltid=AfmBOoopz-ibAE2-84EM6EP799JpnpCngbJ1POMBYtGJ8prk_VJIfbqg\", \"https://www.exportusa.eu/gen-z-trends-united-states.php\", \"https://www.htfmarketinsights.com/report/4373133-gen-z-fashion-market\", \"https://www.forbes.com/sites/gregpetro/2025/11/07/the-gen-z-fashion-trend-thats-baffling-apparel-retailers/\", \"https://www.gwi.com/blog/gen-z-spending-habits\", \"https://rawshot.ai/statistic/gen-z-fashion/\", \"https://www.instyle.com/gen-z-style-8685334\", \"https://aestheticbk.com/blogs/news/gen-z-fashion-trends?srsltid=AfmBOooGxz7wrPmQWeCkEdCssPecKgL9oZiz7I1W3qBWXVhN_k_AomJY\", \"https://www.printful.com/blog/gen-z-fashion\", \"https://www.mintel.com/insights/retail/gen-z-online-shopping-behaviour-and-trends-what-brands-need-to-know/\", \"https://www.statista.com/topics/11087/gen-z-online-shopping-behavior/?srsltid=AfmBOorUxVytwvhLjwqhVq6ksIpp5SuwjhsDjGAkelFUwA-EiOYJegRf\", \"https://www.pwc.com/us/en/industries/consumer-markets/library/gen-z-consumer-trends.html\", \"https://www.researchandmetric.com/blog/gen-z-shopping-habits-retail-2025/\", \"https://www.just-style.com/news/us-apparel-spending-2025/\", \"https://www.adityabirla.com/media/stories/in-tune-with-trendy-catering-to-gen-z-style/\", \"https://indiafashionicon.com/blog/2025/12/20/9-genz-fashion-brands-2025/\", \"https://www.facebook.com/smcglobalofficial/posts/top-gen-z-clothing-brands-shaping-indias-new-style-era-from-eco-conscious-fits-t/1162073482614826/\", \"https://www.urbanmonkey.com/\", \"https://genrage.com/\", \"https://www.thesouledstore.com/gen-z-collection\", \"https://www.nonasties.in/\", \"https://www.fibre2fashion.com/industry-article/10101/top-26-sustainable-fashion-brands-in-india\", \"https://www.instagram.com/reel/DPEagqPEsmv/\", \"https://www.rewago.in/\", \"https://www.instagram.com/freeup_app/\", \"https://www.linkedin.com/pulse/thrift-culture-rise-what-gen-zs-choices-vdxac\", \"https://www.lululemon.com/\", \"https://www.reddit.com/r/GenZ/comments/1l83dn1/what_are_the_popular_clothing_brands_now/\", \"https://fashionunited.com/news/retail/gen-z-s-top-fashion-brands-of-2023/2023122957612\", \"https://www.nike.com/\", \"https://us.shein.com/\", \"https://www.opeepl.com/blog/unveiling-gen-z-favourite-clothing-brands\", \"https://www2.hm.com/en_us/\", \"https://www.zara.com/us/\", \"https://www.urbanoutfitters.com/\", \"https://www.ldnfashion.com/features/fashion-brands-gen-z-love/\", \"https://www.abercrombie.com/\", \"https://www.aeropostale.com/\", \"https://www.hollisterco.com/\", \"https://www.pacsun.com/\", \"https://www.businessoffashion.com/articles/retail/legacy-teen-retailers-hollister-american-eagle-pacsun-y2k-gen-z-tiktok/\", \"https://www.supremenewyork.com/\", \"https://www.highsnobiety.com/p/streetwear-brands/\", \"https://www.stussy.com/\", \"https://www.patagonia.com/\", \"https://yougov.com/en-us/articles/51078-sustainable-choices-what-fashion-brands-do-eco-conscious-americans-prefer\", \"https://chnge.com/\", \"https://www.reddit.com/r/SustainableFashion/comments/11i8ho9/sustainable_brands-for-young-gen-z-women/\", \"https://kotn.com/\", \"https://ecobearwear.com/a/blog/non-fast-fashion-brands-gen-z\", \"https://www.tentree.com/\", \"https://www.depop.com/\", \"https://www.businessinsider.com/gen-z-survey-tell-us-where-you-shop-apps-2026-1\", \"https://poshmark.com/\", \"https://www.modernretail.co/marketing/how-resale-apps-are-courting-gen-z-shoppers-even-as-they-embrace-fast-fashion/\", \"https://www.thredup.com/\", \"https://www.ebay.com/\", \"https://www.vinted.com/\", \"https://www.goodwill.org/\", \"https://retailboss.substack.com/p/is-new-retail-just-resale-64-of-gen\"]}"
+  }
+}

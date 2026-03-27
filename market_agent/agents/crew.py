@@ -32,38 +32,95 @@ def _build_crew(idea: str, region: str, segment: str, depth: str) -> Crew:
 
     t1 = Task(
         agent=market_researcher,
-        description=f"Research market overview and growth signals.\\n{profile}",
-        expected_output="A concise market overview with key trends and opportunities.",
+        description=(
+            f"Perform structured market research with quantitative focus.\n\n"
+            f"You MUST include:\n"
+            f"- TAM (Total Addressable Market)\n"
+            f"- SAM (Serviceable Addressable Market)\n"
+            f"- SOM (Serviceable Obtainable Market)\n"
+            f"- Market size (USD/INR) with year\n"
+            f"- CAGR % (Compound Annual Growth Rate)\n"
+            f"- Key market segments\n"
+            f"- Demand drivers (e.g., regulatory, economic, tech)\n"
+            f"- Current trends and future outlook\n\n"
+            f"Avoid vague statements. Every metric needs a source.\n"
+            f"If exact data unavailable, provide realistic estimates with clear assumptions.\n\n"
+            f"{profile}"
+        ),
+        expected_output="Structured market analysis with quantified TAM/SAM/SOM, growth metrics, and 5+ credible sources.",
     )
     t2 = Task(
         agent=competitor_analyst,
-        description="Analyze competitor landscape using findings from previous task.",
+        description=(
+            "Analyze competitor landscape from previous research.\n\n"
+            "You MUST include:\n"
+            "- Top 3-5 competitors ranked by market share\n"
+            "- Business model (B2B, B2C, B2B2C, marketplace, etc.)\n"
+            "- Pricing strategy and price points\n"
+            "- Product/feature strengths (with 1-2 examples)\n"
+            "- Weaknesses and market gaps\n"
+            "- Estimated user base or revenue (if available)\n\n"
+            "Focus on differentiation opportunities, not just surface features.\n"
+            "Include competitor website URLs and sources."
+        ),
         context=[t1],
-        expected_output="A list of competitors with strengths and weaknesses.",
+        expected_output="Detailed competitive analysis: 3-5 competitors with business models, pricing, strengths, weaknesses, and market positioning gaps.",
     )
     t3 = Task(
         agent=pricing_strategist,
-        description="Propose pricing models for the selected segment and region.",
+        description=(
+            "Design optimal pricing strategy based on market and competitor analysis.\n\n"
+            "You MUST include:\n"
+            "- 3-5 pricing models (freemium, tiered, usage-based, subscription, hybrid, etc.)\n"
+            "- Price points justified by value delivered\n"
+            "- Comparison vs. competitor pricing\n"
+            "- Revenue potential estimate (e.g., $X monthly at Y% adoption)\n"
+            "- Unit economics (if applicable)\n\n"
+            "No arbitrary numbers. Back every pricing decision with market research.\n"
+            "Consider segment willingness-to-pay, purchasing power, and payment methods."
+        ),
         context=[t1, t2],
-        expected_output="3-5 pricing models with rationale.",
+        expected_output="3-5 pricing models with justified price points, revenue projections, and competitive positioning.",
     )
     t4 = Task(
         agent=customer_insights,
-        description="Identify customer pain points, unmet needs, and purchase barriers.",
+        description=(
+            "Identify real customer pain points and behaviors.\n\n"
+            "You MUST include:\n"
+            "- 5-8 prioritized pain points (ranked by severity)\n"
+            "- Customer segments (e.g., SMEs vs. enterprises, geography, use case)\n"
+            "- Purchase barriers (cost, complexity, trust, availability)\n"
+            "- Willingness to pay by segment\n"
+            "- Current solution gaps (what aren't existing solutions solving?)\n\n"
+            "Ground in real data: surveys, reports, user interviews, market research.\n"
+            "Avoid generic statements. Be specific with supporting evidence."
+        ),
         context=[t1, t2],
-        expected_output="A prioritized list of customer pain points.",
+        expected_output="5-8 prioritized customer pain points with segment analysis, purchase barriers, and supporting research sources.",
     )
     t5 = Task(
         agent=report_writer,
         description=(
-            "Synthesize all findings into a final strategic report. "
-            "Return ONLY valid JSON with keys: "
-            "market_overview (string), competitors (array of objects with name, description, url, strengths, weaknesses), "
-            "pricing_models (array of strings), pain_points (array of strings), "
-            "entry_recommendations (array of strings), sources (array of URLs/strings)."
+            "Synthesize all findings into final strategic business report.\n\n"
+            "You MUST:\n"
+            "- Combine insights from all agents into coherent narrative\n"
+            "- Ensure consistency across market size, competitors, pricing, pain points\n"
+            "- Return ONLY valid JSON (no markdown, no explanations outside JSON)\n"
+            "- Include entry_recommendations array with 5-8 actionable strategies\n"
+            "- Aggregate ALL sources from other agents (10+ minimum)\n\n"
+            "JSON Keys required:\n"
+            "  - idea, region, segment (context)\n"
+            "  - market_overview (string, 200-300 words)\n"
+            "  - market_cap (string, e.g., '$5B by 2028')\n"
+            "  - competitors (array of objects: name, description, url, strengths, weaknesses)\n"
+            "  - pricing_models (array of strings)\n"
+            "  - pain_points (array of strings)\n"
+            "  - entry_recommendations (array of strings)\n"
+            "  - sources (array of URLs/references, 10-20 items)\n"
+            "  - reasoning_log (optional, brief summary of analysis)"
         ),
         context=[t1, t2, t3, t4],
-        expected_output="A valid JSON object only, without markdown formatting.",
+        expected_output="Valid JSON object only (no markdown). Keys: idea, region, segment, market_overview, market_cap, competitors, pricing_models, pain_points, entry_recommendations, sources.",
     )
 
     return Crew(
@@ -72,30 +129,6 @@ def _build_crew(idea: str, region: str, segment: str, depth: str) -> Crew:
         process=Process.sequential,
         verbose=True,
         tracing=True,
-    )
-
-
-def get_dummy_report() -> MarketResearchReport:
-    """Return static data for UI development and testing."""
-    return MarketResearchReport(
-        idea="AI-based crop advisory assistant",
-        region="India",
-        segment="Farmers",
-        market_overview="Digital agri-advisory is growing rapidly due to smartphone penetration and weather volatility.",
-        competitors=[
-            Competitor(
-                name="AgriSense",
-                description="Mobile-first advisory platform for crop planning.",
-                url="https://example.com/agrisense",
-                strengths="Strong on-ground channel partnerships.",
-                weaknesses="Limited personalization by micro-climate.",
-            )
-        ],
-        pricing_models=["Freemium with premium advisory packs", "B2B2C via agri-input distributors"],
-        pain_points=["Low trust in generic recommendations", "Language and literacy barriers"],
-        entry_recommendations=["Start with one crop and one state", "Partner with cooperatives for pilot adoption"],
-        sources=["https://example.com/market-trends", "https://example.com/competitor-analysis"],
-        reasoning_log="Dummy run: no external API calls were executed.",
     )
 
 
@@ -148,6 +181,7 @@ def _build_report_from_output(raw_output: str, idea: str, region: str, segment: 
             region=region,
             segment=segment,
             market_overview=(raw_output[:700] if raw_output else f"Research conducted on {idea} for {segment} in {region}."),
+            market_cap=_extract_market_cap(raw_output),
             competitors=[],
             pricing_models=_extract_bullets(raw_output, "pricing"),
             pain_points=_extract_bullets(raw_output, "pain"),
@@ -178,6 +212,7 @@ def _build_report_from_output(raw_output: str, idea: str, region: str, segment: 
         region=region,
         segment=segment,
         market_overview=str(parsed.get("market_overview", "")).strip() or f"Research conducted on {idea} for {segment} in {region}.",
+        market_cap=_safe_str(parsed.get("market_cap")) or _extract_market_cap(raw_output),
         competitors=competitors,
         pricing_models=_as_string_list(parsed.get("pricing_models")),
         pain_points=_as_string_list(parsed.get("pain_points")),
@@ -185,6 +220,23 @@ def _build_report_from_output(raw_output: str, idea: str, region: str, segment: 
         sources=_as_string_list(parsed.get("sources")),
         reasoning_log=raw_output,
     )
+
+
+def _extract_market_cap(raw_output: str) -> str | None:
+    """Extract a market cap/size expression from model output."""
+    if not raw_output:
+        return None
+
+    patterns = [
+        r"\$\s?\d+(?:[\.,]\d+)?\s?(?:billion|million|trillion|bn|mn|tn|B|M|T)",
+        r"₹\s?\d+(?:[\.,]\d+)?\s?(?:crore|lakh|thousand|million|billion|cr|L|K)",
+        r"\d+(?:[\.,]\d+)?\s?(?:billion|million|trillion|bn|mn|tn)\s?(?:USD|INR|dollars)?",
+    ]
+    for pattern in patterns:
+        match = re.search(pattern, raw_output, flags=re.IGNORECASE)
+        if match:
+            return match.group(0).strip()
+    return None
 
 
 def _extract_json_payload(raw_output: str) -> dict | None:
