@@ -53,6 +53,8 @@ def init_persistent_state() -> None:
         "segments_selected": ["Consumers"],
         "region_other": "",
         "segment_other": "",
+        "followup_llm_calls": 0,
+        "followup_llm_limit": 1,
     }
     for key, val in defaults.items():
         if key not in st.session_state:
@@ -1454,7 +1456,7 @@ if st.session_state.view == "Research":
                         box-shadow:{d_sh};transition:all 0.15s;cursor:pointer;'>Deep</div>
         </div>
         <div style='margin-top:6px;font-size:0.78rem;color:#8B7355;font-family:DM Sans,sans-serif;'>
-            {'Quick: fast scan, ~30 sec' if st.session_state.depth == 'Quick'
+            {'Quick: fast scan, ~4 min' if st.session_state.depth == 'Quick'
              else 'Deep: multi-round research, ~10 min — richer results'}
         </div>""",
         unsafe_allow_html=True,
@@ -1803,6 +1805,11 @@ elif st.session_state.view == "Follow-up":
         )
     else:
         report = st.session_state.report
+        remaining_calls = max(0, st.session_state["followup_llm_limit"] - st.session_state["followup_llm_calls"])
+        st.caption(
+            f"Follow-up demo mode: {remaining_calls} Gemini call(s) remaining this session. "
+            "After limit, answers are generated directly from the report."
+        )
         st.markdown("<div class='chat-container'>", unsafe_allow_html=True)
 
         if not st.session_state.qa_history:
@@ -1840,11 +1847,15 @@ elif st.session_state.view == "Follow-up":
 
         if ask_clicked and question.strip():
             with st.spinner("Thinking…"):
-                answer = answer_followup(
+                allow_model_call = st.session_state["followup_llm_calls"] < st.session_state["followup_llm_limit"]
+                answer, model_call_attempted = answer_followup(
                     question=question.strip(),
                     report=report,
                     history=st.session_state.qa_history,
+                    allow_model_call=allow_model_call,
                 )
+            if model_call_attempted:
+                st.session_state["followup_llm_calls"] += 1
             st.session_state.qa_history.append({"question": question.strip(), "answer": answer})
             save_qa_to_storage()
             st.rerun()
